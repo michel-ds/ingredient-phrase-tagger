@@ -44,14 +44,13 @@ for sentence in sentences:
     if total_words_per_sentence == correct_words_per_sentence:
         correct_sentences += 1
 
-print
-print 'Sentence-Level Stats:'
-print '\tcorrect: ', correct_sentences
-print '\ttotal: ', total_sentences
-print '\t% correct: ', 100 * (correct_sentences / float(total_sentences))
 
-print
-print 'Word-Level Stats:'
-print '\tcorrect:', correct_words
-print '\ttotal:', total_words
-print '\t% correct:', 100 * (correct_words / float(total_words))
+print ('Sentence-Level Stats:')
+print ('\tcorrect: ', correct_sentences)
+print ('\ttotal: ', total_sentences)
+print ('\t% correct: ', 100 * (correct_sentences / float(total_sentences)))
+
+print ('Word-Level Stats:')
+print ('\tcorrect:', correct_words)
+print ('\ttotal:', total_words)
+print ('\t% correct:', 100 * (correct_words / float(total_words)))
